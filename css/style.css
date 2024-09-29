@@ -1,0 +1,134 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(214, 214, 214);
+    margin: 0px;
+}
+
+#wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 1100px;
+    margin: 0px auto;
+}
+
+header,
+footer {
+    background-color: rgb(53, 53, 53);
+}
+
+nav {
+    display: flex;
+    width: 1100px;
+    margin: 0 auto;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font: 20px Arial;
+    padding: 10px 20px;
+}
+
+nav a:hover,
+nav .active {
+    background-color: gray;
+}
+
+#container {
+    display: flex;
+    background-color: white;
+    padding: 0px 20px;
+}
+
+main {
+    margin: 0px 20px;
+    width: 500px;
+}
+
+main .up {
+    width: 500px;
+    height: 350px;
+}
+
+main .down {
+    width: 500px;
+    height: 400px;
+}
+
+.left {
+    width: 310px;
+}
+
+.right {
+    width: 280px;
+}
+
+.right img {
+    width: 280px;
+    height: 200px;
+}
+
+main h1 {
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: -5px;
+}
+
+.nm {
+    margin-bottom: 20px;
+}
+
+.left,
+.right,
+main {
+    text-align: justify;
+    font: 13px Arial;
+}
+
+.left h2,
+.right .rm {
+    font-size: 16px;
+    margin-top: 20px;
+    margin-bottom: -5px;
+}
+
+.rb {
+    margin-top: -5px;
+    font-size: 16px;
+}
+
+footer {
+    display: flex;
+    text-align: center;
+    font: 12px Arial;
+    flex-direction: column;
+}
+
+#footcnt {
+    display: flex;
+    padding: 30px;
+    margin: 0px auto;
+}
+
+#footwarp {
+    width: 250px;
+    background-color: white;
+    margin: 0px 15px;
+    height: 200px;
+}
+
+.copyright {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -15px;
+    margin-bottom: 15px;
+    color: white;
+}
+
+#footwarp h1 {
+    font-size: 20px;
+}
